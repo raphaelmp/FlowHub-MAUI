@@ -40,26 +40,28 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android33.0|AnyCPU'">
-	  <ApplicationId>com.yvanbrunel.flowhub</ApplicationId>
+	  <ApplicationId>com.yvanbrunel.flowhubmaui</ApplicationId>
 	  <ApplicationDisplayVersion>0.0.8</ApplicationDisplayVersion>
 	  <ApplicationTitle>FlowHub</ApplicationTitle>
+	  <AndroidKeyStore>False</AndroidKeyStore>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android33.0|AnyCPU'">
-	  <ApplicationId>com.yvanbrunel.flowhub</ApplicationId>
+	  <ApplicationId>com.yvanbrunel.flowhubmaui</ApplicationId>
 	  <ApplicationDisplayVersion>0.0.8</ApplicationDisplayVersion>
 	  <AndroidPackageFormat>apk</AndroidPackageFormat>
 	  <ApplicationTitle>FlowHub</ApplicationTitle>
+	  <AndroidKeyStore>False</AndroidKeyStore>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows10.0.19041.0|AnyCPU'">
-	  <ApplicationId>com.yvanbrunel.flowhub</ApplicationId>
+	  <ApplicationId>com.yvanbrunel.flowhubmaui</ApplicationId>
 	  <ApplicationDisplayVersion>0.0.8</ApplicationDisplayVersion>
 	  <ApplicationTitle>FlowHub</ApplicationTitle>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-windows10.0.19041.0|AnyCPU'">
-	  <ApplicationId>com.yvanbrunel.flowhub</ApplicationId>
+	  <ApplicationId>com.yvanbrunel.flowhubmaui</ApplicationId>
 	  <ApplicationDisplayVersion>0.0.8</ApplicationDisplayVersion>
 	  <ApplicationTitle>FlowHub</ApplicationTitle>
 	</PropertyGroup>

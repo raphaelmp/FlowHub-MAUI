@@ -204,7 +204,7 @@
                                             
                                             <Label>
                                                 <Label.Text>
-                                                    <MultiBinding StringFormat="{} Amount: {0:n3} {1}">
+                                                    <MultiBinding StringFormat="{} Amount: {0:n2} {1}">
                                                         <Binding Path="AmountSpent"/>
                                                         <Binding Path="Currency"/>
                                                     </MultiBinding>

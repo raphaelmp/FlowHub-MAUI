@@ -65,7 +65,6 @@
             </VerticalStackLayout>
 
             <Grid ColumnDefinitions="280,10*">
-
                 <material:TextField Grid.Column="0" Title="Unit Price"
                                     x:Name="UnitPrice" Focused="UnitPrice_Focused"
                                     TextChanged="UnitPriceOrQty_TextChanged"
@@ -76,7 +75,6 @@
                         <validation:NumericValidation/>
                     </material:TextField.Validations>
                 </material:TextField>
-
                 <material:TextField Grid.Column="1" Title="Quantity"
                                     x:Name="Qty"
                                     TextChanged="UnitPriceOrQty_TextChanged"
@@ -87,8 +85,6 @@
                         <validation:NumericValidation/>
                     </material:TextField.Validations>
                 </material:TextField>
-                
-
             </Grid>
             <material:EditorField Title="Reason" Text="{Binding SingleExpenditureDetails.Reason}">
                 <material:EditorField.Validations>
@@ -116,12 +112,8 @@
             </ListView>
             <material:CheckBox IsChecked="{Binding AddAnotherExp}" IsVisible="{Binding IsAdd}"
                                    Margin="5,0,10,0"
-                                   Text="Save and Add another" />
-
-            
+                                   Text="Save and Add another" />            
             <ImageButton Source="{AppThemeBinding Dark=save_icon_d, Light=save_icon_l}" input:FormView.IsSubmitButton="True"/>
-            
-
         </input:FormView>
 
         
